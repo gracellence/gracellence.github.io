@@ -41,6 +41,14 @@ a:hover {
 	font-size: 14px;
 }
 
+#top-links {
+	position: absolute;
+	/* top: 20px; */
+	right: 40px;
+	display: inline-block;
+	z-index: 300;
+}
+
 /*
 .sticky {
 	position: fixed;

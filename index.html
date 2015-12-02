@@ -9,11 +9,23 @@
 </head>
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 	<div id="nav-bar">
 			<a href="index.html" id="nav">Home</a> <small>&#9728;</small>
 			<a href="about.html" id="nav">About</a> <small>&#9728;</small> 
 			<a href="join.html" id="nav">Join</a>
+		<div id="top-links">
+			<div class="fb-follow" data-href="https://www.facebook.com/projectlight.dance" data-layout="button" data-show-faces="false"></div>
 		</div>
+	</div>
 
 	<div id="banner-container" class="banner-container-dark">
 		<img class="banner-container-image" src="assets/img/bg-2.jpg">
@@ -69,7 +81,7 @@
 		<div class="container2">
 			<div class="text-reg">
 			<div class="page-preview">
-				<img src="assets/img/icon-bulb.png" width="80"><p><big><big>Find out more.</big></big><br>Learn more about what Project Light is and what we're striving to do.</p>
+				<img src="assets/img/icon-bulb.png" width="80"><p><big><big><font color="fbf19f">Find out more</font></big></big><br>Learn more about what Project Light is and what we're striving to do.</p>
 				<a href="about.html">
 					<div id="go">
 						ABOUT
@@ -78,7 +90,7 @@
 			</div>
 
 			<div class="page-preview">
-				<img src="assets/img/icon-team.png" width="100"><p><big><big>Help make it happen.</big></big><br> There are many ways to help us out, whether it's performing, coordinating, volunteering, or donating.</p>
+				<img src="assets/img/icon-team.png" width="100"><p><big><big><font color="fbf19f">Help make it happen</font></big></big><br> There are many ways to help us out, whether it's performing, coordinating, volunteering, or donating.</p>
 				<a href="join.html">
 					<div id="go">
 						JOIN
