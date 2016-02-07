@@ -22,16 +22,6 @@ $(document).ready(function(){
 	});
 */
 
-	$("#go").click(function() {
-	  window.location = $(this).find("a").attr("href"); 
-	  return false;
-	});
-
-	$("#button").click(function() {
-	  window.location = $(this).find("a").attr("href"); 
-	  return false;
-	});
-
 
     $("#back-top").hide();
 
